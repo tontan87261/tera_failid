@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing gps_data.egg-info/PKG-INFO
+writing dependency_links to gps_data.egg-info/dependency_links.txt
+writing entry points to gps_data.egg-info/entry_points.txt
+writing requirements to gps_data.egg-info/requires.txt
+writing top-level names to gps_data.egg-info/top_level.txt
+reading manifest file 'gps_data.egg-info/SOURCES.txt'
+writing manifest file 'gps_data.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps-data.egg-link (link to .)
+
+Installed /home/tera/ros2_ws2/build/gps_data
+running symlink_data
+symbolically linking /home/tera/ros2_ws2/build/gps_data/resource/gps_data -> /home/tera/ros2_ws2/install/gps_data/share/ament_index/resource_index/packages
+symbolically linking /home/tera/ros2_ws2/build/gps_data/package.xml -> /home/tera/ros2_ws2/install/gps_data/share/gps_data

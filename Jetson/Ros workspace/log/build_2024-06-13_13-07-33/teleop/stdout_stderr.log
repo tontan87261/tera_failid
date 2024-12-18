@@ -1,0 +1,37 @@
+running develop
+Removing /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop.egg-link (link to .)
+running egg_info
+writing ../../build/teleop/teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/teleop/teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/teleop/teleop.egg-info/entry_points.txt
+writing requirements to ../../build/teleop/teleop.egg-info/requires.txt
+writing top-level names to ../../build/teleop/teleop.egg-info/top_level.txt
+reading manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/wayfinder.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/TERA_gps.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/stanleycontroller.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/__init__.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/teleop2arduino.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/ldlidar_break.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/stanley_teleop.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/wayfinder.py to wayfinder.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/TERA_gps.py to TERA_gps.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/stanleycontroller.py to stanleycontroller.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/teleop2arduino.py to teleop2arduino.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/ldlidar_break.py to ldlidar_break.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/stanley_teleop.py to stanley_teleop.cpython-310.pyc
+running install_data
+copying resource/teleop -> /home/tera/ros2_ws2/install/teleop/share/ament_index/resource_index/packages
+copying package.xml -> /home/tera/ros2_ws2/install/teleop/share/teleop
+running install_egg_info
+Copying ../../build/teleop/teleop.egg-info to /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing talker script to /home/tera/ros2_ws2/install/teleop/lib/teleop
+writing list of installed files to '/home/tera/ros2_ws2/build/teleop/install.log'

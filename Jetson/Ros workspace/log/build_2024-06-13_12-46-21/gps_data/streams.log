@@ -1,0 +1,16 @@
+[2.117s] Invoking command in '/home/tera/ros2_ws2/build/gps_data': PYTHONPATH=/home/tera/ros2_ws2/build/gps_data/prefix_override:/home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tera/ros2_ws2/build/gps_data/build --no-deps symlink_data
+[2.732s] running develop
+[3.110s] running egg_info
+[3.111s] writing gps_data.egg-info/PKG-INFO
+[3.111s] writing dependency_links to gps_data.egg-info/dependency_links.txt
+[3.111s] writing entry points to gps_data.egg-info/entry_points.txt
+[3.111s] writing requirements to gps_data.egg-info/requires.txt
+[3.111s] writing top-level names to gps_data.egg-info/top_level.txt
+[3.116s] reading manifest file 'gps_data.egg-info/SOURCES.txt'
+[3.117s] writing manifest file 'gps_data.egg-info/SOURCES.txt'
+[3.120s] running build_ext
+[3.121s] Creating /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps-data.egg-link (link to .)
+[3.122s] 
+[3.122s] Installed /home/tera/ros2_ws2/build/gps_data
+[3.123s] running symlink_data
+[3.265s] Invoked command in '/home/tera/ros2_ws2/build/gps_data' returned '0': PYTHONPATH=/home/tera/ros2_ws2/build/gps_data/prefix_override:/home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tera/ros2_ws2/build/gps_data/build --no-deps symlink_data

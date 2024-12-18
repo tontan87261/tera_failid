@@ -1,0 +1,46 @@
+running develop
+Removing /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps-data.egg-link (link to .)
+running egg_info
+writing ../../build/gps_data/gps_data.egg-info/PKG-INFO
+writing dependency_links to ../../build/gps_data/gps_data.egg-info/dependency_links.txt
+writing entry points to ../../build/gps_data/gps_data.egg-info/entry_points.txt
+writing requirements to ../../build/gps_data/gps_data.egg-info/requires.txt
+writing top-level names to ../../build/gps_data/gps_data.egg-info/top_level.txt
+reading manifest file '../../build/gps_data/gps_data.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/gps_data/gps_data.egg-info/SOURCES.txt'
+running build
+running build_py
+copying gps_data/MasterStanley.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+copying gps_data/TERA_gps.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+copying gps_data/GPS_Subscriber.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+running install
+running install_lib
+creating /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/wayfinder.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/gps_live_map.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/MasterStanley.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/TERA_gps.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/GPS_Subscriber.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/find_ports.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/stanleycontroller.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/__init__.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/gps.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/stanley_teleop.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/wayfinder.py to wayfinder.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/gps_live_map.py to gps_live_map.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/MasterStanley.py to MasterStanley.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/TERA_gps.py to TERA_gps.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/GPS_Subscriber.py to GPS_Subscriber.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/find_ports.py to find_ports.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/stanleycontroller.py to stanleycontroller.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/gps.py to gps.cpython-310.pyc
+byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/stanley_teleop.py to stanley_teleop.cpython-310.pyc
+running install_data
+copying resource/gps_data -> /home/tera/ros2_ws2/install/gps_data/share/ament_index/resource_index/packages
+copying package.xml -> /home/tera/ros2_ws2/install/gps_data/share/gps_data
+running install_egg_info
+Copying ../../build/gps_data/gps_data.egg-info to /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/tera/ros2_ws2/build/gps_data/install.log'

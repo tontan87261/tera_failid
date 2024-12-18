@@ -1,0 +1,61 @@
+[1.987s] Invoking command in '/home/tera/ros2_ws2/src/gps_data': PYTHONPATH=/home/tera/ros2_ws2/build/gps_data/prefix_override:/home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gps_data build --build-base /home/tera/ros2_ws2/build/gps_data/build install --record /home/tera/ros2_ws2/build/gps_data/install.log --single-version-externally-managed install_data
+[2.500s] running egg_info
+[2.501s] creating ../../build/gps_data/gps_data.egg-info
+[2.501s] writing ../../build/gps_data/gps_data.egg-info/PKG-INFO
+[2.502s] writing dependency_links to ../../build/gps_data/gps_data.egg-info/dependency_links.txt
+[2.502s] writing entry points to ../../build/gps_data/gps_data.egg-info/entry_points.txt
+[2.503s] writing requirements to ../../build/gps_data/gps_data.egg-info/requires.txt
+[2.503s] writing top-level names to ../../build/gps_data/gps_data.egg-info/top_level.txt
+[2.503s] writing manifest file '../../build/gps_data/gps_data.egg-info/SOURCES.txt'
+[2.506s] reading manifest file '../../build/gps_data/gps_data.egg-info/SOURCES.txt'
+[2.507s] adding license file 'LICENSE'
+[2.508s] writing manifest file '../../build/gps_data/gps_data.egg-info/SOURCES.txt'
+[2.508s] running build
+[2.508s] running build_py
+[2.512s] creating /home/tera/ros2_ws2/build/gps_data/build
+[2.512s] creating /home/tera/ros2_ws2/build/gps_data/build/lib
+[2.512s] creating /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+[2.512s] copying gps_data/wayfinder.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+[2.513s] copying gps_data/gps_live_map.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+[2.513s] copying gps_data/MasterStanley.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+[2.513s] copying gps_data/TERA_gps.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+[2.513s] copying gps_data/GPS_Subscriber.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+[2.513s] copying gps_data/find_ports.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+[2.514s] copying gps_data/stanleycontroller.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+[2.514s] copying gps_data/__init__.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+[2.514s] copying gps_data/gps.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+[2.514s] copying gps_data/stanley_teleop.py -> /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data
+[2.514s] running install
+[2.515s] running install_lib
+[2.516s] creating /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+[2.517s] copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/wayfinder.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+[2.517s] copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/gps_live_map.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+[2.517s] copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/MasterStanley.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+[2.517s] copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/TERA_gps.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+[2.518s] copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/GPS_Subscriber.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+[2.518s] copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/find_ports.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+[2.518s] copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/stanleycontroller.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+[2.518s] copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/__init__.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+[2.518s] copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/gps.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+[2.519s] copying /home/tera/ros2_ws2/build/gps_data/build/lib/gps_data/stanley_teleop.py -> /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data
+[2.520s] byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/wayfinder.py to wayfinder.cpython-310.pyc
+[2.521s] byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/gps_live_map.py to gps_live_map.cpython-310.pyc
+[2.522s] byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/MasterStanley.py to MasterStanley.cpython-310.pyc
+[2.524s] byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/TERA_gps.py to TERA_gps.cpython-310.pyc
+[2.525s] byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/GPS_Subscriber.py to GPS_Subscriber.cpython-310.pyc
+[2.526s] byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/find_ports.py to find_ports.cpython-310.pyc
+[2.527s] byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/stanleycontroller.py to stanleycontroller.cpython-310.pyc
+[2.528s] byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/__init__.py to __init__.cpython-310.pyc
+[2.529s] byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/gps.py to gps.cpython-310.pyc
+[2.530s] byte-compiling /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data/stanley_teleop.py to stanley_teleop.cpython-310.pyc
+[2.530s] running install_data
+[2.530s] creating /home/tera/ros2_ws2/install/gps_data/share/ament_index
+[2.531s] creating /home/tera/ros2_ws2/install/gps_data/share/ament_index/resource_index
+[2.531s] creating /home/tera/ros2_ws2/install/gps_data/share/ament_index/resource_index/packages
+[2.531s] copying resource/gps_data -> /home/tera/ros2_ws2/install/gps_data/share/ament_index/resource_index/packages
+[2.531s] copying package.xml -> /home/tera/ros2_ws2/install/gps_data/share/gps_data
+[2.532s] running install_egg_info
+[2.535s] Copying ../../build/gps_data/gps_data.egg-info to /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps_data-0.0.0-py3.10.egg-info
+[2.537s] running install_scripts
+[2.577s] writing list of installed files to '/home/tera/ros2_ws2/build/gps_data/install.log'
+[2.649s] Invoked command in '/home/tera/ros2_ws2/src/gps_data' returned '0': PYTHONPATH=/home/tera/ros2_ws2/build/gps_data/prefix_override:/home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gps_data build --build-base /home/tera/ros2_ws2/build/gps_data/build install --record /home/tera/ros2_ws2/build/gps_data/install.log --single-version-externally-managed install_data

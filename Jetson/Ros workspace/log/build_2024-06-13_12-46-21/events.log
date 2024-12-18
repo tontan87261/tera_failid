@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000566] (gps_data) JobQueued: {'identifier': 'gps_data', 'dependencies': OrderedDict()}
+[0.001059] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.001334] (gps_data) JobStarted: {'identifier': 'gps_data'}
+[0.021012] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.099483] (-) TimerEvent: {}
+[0.200037] (-) TimerEvent: {}
+[0.300620] (-) TimerEvent: {}
+[0.401179] (-) TimerEvent: {}
+[0.501739] (-) TimerEvent: {}
+[0.602315] (-) TimerEvent: {}
+[0.702953] (-) TimerEvent: {}
+[0.803516] (-) TimerEvent: {}
+[0.904107] (-) TimerEvent: {}
+[1.004661] (-) TimerEvent: {}
+[1.105219] (-) TimerEvent: {}
+[1.205805] (-) TimerEvent: {}
+[1.306443] (-) TimerEvent: {}
+[1.407044] (-) TimerEvent: {}
+[1.507648] (-) TimerEvent: {}
+[1.608234] (-) TimerEvent: {}
+[1.708813] (-) TimerEvent: {}
+[1.809402] (-) TimerEvent: {}
+[1.909982] (-) TimerEvent: {}
+[2.010608] (-) TimerEvent: {}
+[2.111345] (-) TimerEvent: {}
+[2.116165] (gps_data) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/tera/ros2_ws2/build/gps_data/build', '--no-deps', 'symlink_data'], 'cwd': '/home/tera/ros2_ws2/build/gps_data', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tera', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tera', 'OLDPWD': '/home/tera', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2522', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/tera/ros2_ws2/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'tera', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tera', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/tera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2359,unix/ubuntu:/tmp/.ICE-unix/2359', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/83d3fefb_8903_4965_8aaa_9e4dcd025518', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.81', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tera/ros2_ws2/install/teleop:/home/tera/ros2_ws2/install/gps_data:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tera/ros2_ws2/build/gps_data', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tera/ros2_ws2/build/gps_data/prefix_override:/home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages:/home/tera/ros2_ws2/build/teleop:/home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages:/home/tera/ros2_ws2/build/gps_data:/home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.126591] (teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/tera/ros2_ws2/build/teleop/build', '--no-deps', 'symlink_data'], 'cwd': '/home/tera/ros2_ws2/build/teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tera', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tera', 'OLDPWD': '/home/tera', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2522', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/tera/ros2_ws2/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'tera', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tera', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/tera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2359,unix/ubuntu:/tmp/.ICE-unix/2359', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/83d3fefb_8903_4965_8aaa_9e4dcd025518', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.81', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tera/ros2_ws2/install/teleop:/home/tera/ros2_ws2/install/gps_data:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tera/ros2_ws2/build/teleop', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tera/ros2_ws2/build/teleop/prefix_override:/home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages:/home/tera/ros2_ws2/build/teleop:/home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages:/home/tera/ros2_ws2/build/gps_data:/home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.211467] (-) TimerEvent: {}
+[2.312075] (-) TimerEvent: {}
+[2.412692] (-) TimerEvent: {}
+[2.513281] (-) TimerEvent: {}
+[2.613875] (-) TimerEvent: {}
+[2.714465] (-) TimerEvent: {}
+[2.733362] (gps_data) StdoutLine: {'line': b'running develop\n'}
+[2.739227] (teleop) StdoutLine: {'line': b'running develop\n'}
+[2.814599] (-) TimerEvent: {}
+[2.915205] (-) TimerEvent: {}
+[3.015772] (-) TimerEvent: {}
+[3.109809] (teleop) StdoutLine: {'line': b'running egg_info\n'}
+[3.110301] (teleop) StdoutLine: {'line': b'writing teleop.egg-info/PKG-INFO\n'}
+[3.110739] (teleop) StdoutLine: {'line': b'writing dependency_links to teleop.egg-info/dependency_links.txt\n'}
+[3.111096] (gps_data) StdoutLine: {'line': b'running egg_info\n'}
+[3.111392] (teleop) StdoutLine: {'line': b'writing entry points to teleop.egg-info/entry_points.txt\n'}
+[3.111671] (teleop) StdoutLine: {'line': b'writing requirements to teleop.egg-info/requires.txt\n'}
+[3.111915] (gps_data) StdoutLine: {'line': b'writing gps_data.egg-info/PKG-INFO\n'}
+[3.112098] (teleop) StdoutLine: {'line': b'writing top-level names to teleop.egg-info/top_level.txt\n'}
+[3.112264] (gps_data) StdoutLine: {'line': b'writing dependency_links to gps_data.egg-info/dependency_links.txt\n'}
+[3.112430] (gps_data) StdoutLine: {'line': b'writing entry points to gps_data.egg-info/entry_points.txt\n'}
+[3.112627] (gps_data) StdoutLine: {'line': b'writing requirements to gps_data.egg-info/requires.txt\n'}
+[3.112814] (gps_data) StdoutLine: {'line': b'writing top-level names to gps_data.egg-info/top_level.txt\n'}
+[3.115820] (teleop) StdoutLine: {'line': b"reading manifest file 'teleop.egg-info/SOURCES.txt'\n"}
+[3.116026] (-) TimerEvent: {}
+[3.116979] (gps_data) StdoutLine: {'line': b"reading manifest file 'gps_data.egg-info/SOURCES.txt'\n"}
+[3.117494] (teleop) StdoutLine: {'line': b"writing manifest file 'teleop.egg-info/SOURCES.txt'\n"}
+[3.118779] (gps_data) StdoutLine: {'line': b"writing manifest file 'gps_data.egg-info/SOURCES.txt'\n"}
+[3.120388] (teleop) StdoutLine: {'line': b'running build_ext\n'}
+[3.120819] (teleop) StdoutLine: {'line': b'Creating /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop.egg-link (link to .)\n'}
+[3.121629] (gps_data) StdoutLine: {'line': b'running build_ext\n'}
+[3.122095] (gps_data) StdoutLine: {'line': b'Creating /home/tera/ros2_ws2/install/gps_data/lib/python3.10/site-packages/gps-data.egg-link (link to .)\n'}
+[3.122440] (teleop) StdoutLine: {'line': b'Installing talker script to /home/tera/ros2_ws2/install/teleop/lib/teleop\n'}
+[3.123055] (teleop) StdoutLine: {'line': b'\n'}
+[3.123244] (teleop) StdoutLine: {'line': b'Installed /home/tera/ros2_ws2/build/teleop\n'}
+[3.123373] (teleop) StdoutLine: {'line': b'running symlink_data\n'}
+[3.123774] (gps_data) StdoutLine: {'line': b'\n'}
+[3.123926] (gps_data) StdoutLine: {'line': b'Installed /home/tera/ros2_ws2/build/gps_data\n'}
+[3.124043] (gps_data) StdoutLine: {'line': b'running symlink_data\n'}
+[3.216233] (-) TimerEvent: {}
+[3.218912] (teleop) CommandEnded: {'returncode': 0}
+[3.261767] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 0}
+[3.266422] (gps_data) CommandEnded: {'returncode': 0}
+[3.285206] (gps_data) JobEnded: {'identifier': 'gps_data', 'rc': 0}
+[3.286720] (-) EventReactorShutdown: {}

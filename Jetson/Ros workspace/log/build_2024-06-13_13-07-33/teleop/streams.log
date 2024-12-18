@@ -1,0 +1,41 @@
+[4.139s] Invoking command in '/home/tera/ros2_ws2/build/teleop': PYTHONPATH=/home/tera/ros2_ws2/build/teleop/prefix_override:/home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/tera/ros2_ws2/build/teleop/build
+[5.405s] running develop
+[6.119s] Removing /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop.egg-link (link to .)
+[6.221s] Invoked command in '/home/tera/ros2_ws2/build/teleop' returned '0': PYTHONPATH=/home/tera/ros2_ws2/build/teleop/prefix_override:/home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/tera/ros2_ws2/build/teleop/build
+[6.227s] Invoking command in '/home/tera/ros2_ws2/src/teleop': PYTHONPATH=/home/tera/ros2_ws2/build/teleop/prefix_override:/home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/teleop build --build-base /home/tera/ros2_ws2/build/teleop/build install --record /home/tera/ros2_ws2/build/teleop/install.log --single-version-externally-managed install_data --force
+[7.367s] running egg_info
+[7.367s] writing ../../build/teleop/teleop.egg-info/PKG-INFO
+[7.368s] writing dependency_links to ../../build/teleop/teleop.egg-info/dependency_links.txt
+[7.368s] writing entry points to ../../build/teleop/teleop.egg-info/entry_points.txt
+[7.369s] writing requirements to ../../build/teleop/teleop.egg-info/requires.txt
+[7.369s] writing top-level names to ../../build/teleop/teleop.egg-info/top_level.txt
+[7.373s] reading manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[7.374s] writing manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[7.375s] running build
+[7.375s] running build_py
+[7.376s] running install
+[7.377s] running install_lib
+[7.379s] creating /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+[7.379s] copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/wayfinder.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+[7.380s] copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/TERA_gps.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+[7.380s] copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/stanleycontroller.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+[7.381s] copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/__init__.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+[7.381s] copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/teleop2arduino.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+[7.381s] copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/ldlidar_break.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+[7.381s] copying /home/tera/ros2_ws2/build/teleop/build/lib/teleop/stanley_teleop.py -> /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop
+[7.387s] byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/wayfinder.py to wayfinder.cpython-310.pyc
+[7.388s] byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/TERA_gps.py to TERA_gps.cpython-310.pyc
+[7.390s] byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/stanleycontroller.py to stanleycontroller.cpython-310.pyc
+[7.391s] byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/__init__.py to __init__.cpython-310.pyc
+[7.391s] byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/teleop2arduino.py to teleop2arduino.cpython-310.pyc
+[7.392s] byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/ldlidar_break.py to ldlidar_break.cpython-310.pyc
+[7.393s] byte-compiling /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop/stanley_teleop.py to stanley_teleop.cpython-310.pyc
+[7.394s] running install_data
+[7.394s] copying resource/teleop -> /home/tera/ros2_ws2/install/teleop/share/ament_index/resource_index/packages
+[7.394s] copying package.xml -> /home/tera/ros2_ws2/install/teleop/share/teleop
+[7.394s] running install_egg_info
+[7.403s] Copying ../../build/teleop/teleop.egg-info to /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop-0.0.0-py3.10.egg-info
+[7.405s] running install_scripts
+[7.488s] Installing talker script to /home/tera/ros2_ws2/install/teleop/lib/teleop
+[7.489s] writing list of installed files to '/home/tera/ros2_ws2/build/teleop/install.log'
+[7.570s] Invoked command in '/home/tera/ros2_ws2/src/teleop' returned '0': PYTHONPATH=/home/tera/ros2_ws2/build/teleop/prefix_override:/home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/teleop build --build-base /home/tera/ros2_ws2/build/teleop/build install --record /home/tera/ros2_ws2/build/teleop/install.log --single-version-externally-managed install_data --force

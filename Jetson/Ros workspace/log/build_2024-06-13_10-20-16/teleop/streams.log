@@ -1,0 +1,21 @@
+[1.989s] Invoking command in '/home/tera/ros2_ws2/build/teleop': PYTHONPATH=/home/tera/ros2_ws2/build/teleop/prefix_override:/home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tera/ros2_ws2/build/teleop/build --no-deps symlink_data --force
+[2.556s] running develop
+[2.557s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.558s]   warnings.warn(
+[2.943s] running egg_info
+[2.944s] writing teleop.egg-info/PKG-INFO
+[2.944s] writing dependency_links to teleop.egg-info/dependency_links.txt
+[2.945s] writing entry points to teleop.egg-info/entry_points.txt
+[2.945s] writing requirements to teleop.egg-info/requires.txt
+[2.945s] writing top-level names to teleop.egg-info/top_level.txt
+[2.949s] reading manifest file 'teleop.egg-info/SOURCES.txt'
+[2.951s] writing manifest file 'teleop.egg-info/SOURCES.txt'
+[2.954s] running build_ext
+[2.955s] Creating /home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages/teleop.egg-link (link to .)
+[2.957s] Installing talker script to /home/tera/ros2_ws2/install/teleop/lib/teleop
+[2.957s] 
+[2.958s] Installed /home/tera/ros2_ws2/build/teleop
+[2.958s] running symlink_data
+[2.958s] symbolically linking /home/tera/ros2_ws2/build/teleop/resource/teleop -> /home/tera/ros2_ws2/install/teleop/share/ament_index/resource_index/packages
+[2.958s] symbolically linking /home/tera/ros2_ws2/build/teleop/package.xml -> /home/tera/ros2_ws2/install/teleop/share/teleop
+[3.089s] Invoked command in '/home/tera/ros2_ws2/build/teleop' returned '0': PYTHONPATH=/home/tera/ros2_ws2/build/teleop/prefix_override:/home/tera/ros2_ws2/install/teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tera/ros2_ws2/build/teleop/build --no-deps symlink_data --force
